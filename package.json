@@ -1,0 +1,32 @@
+{
+  "name": "nukem",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "description": "Nukes deep node_modules reliably on Windows.",
+  "author": "Daiz <taneli.vatanen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "lsc make"
+  },
+  "bin": {
+    "nukem": "./bin/nukem"
+  },
+  "dependencies": {
+    "shelljs": "~0.2.6"
+  },
+  "devDependencies": {
+    "LiveScript": "~1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daiz-/nukem.git"
+  },
+  "keywords": [
+    "node_modules",
+    "windows",
+    "delete"
+  ],
+  "bugs": {
+    "url": "https://github.com/Daiz-/nukem/issues"
+  }
+}
